@@ -1,0 +1,6 @@
+classes= 1
+train  = {YOUR DATE FOLDER}/train.txt
+valid  = {YOUR DATE FOLDER}/valid.txt
+names = ./data/qr-box.names
+backup = {YOUR DATE FOLDER}//backup
+

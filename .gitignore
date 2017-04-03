@@ -14,9 +14,9 @@ opencv/
 convnet/
 decaf/
 submission/
-cfg/
 darknet
 .fuse*
+temp/
 
 # OS Generated #
 .DS_Store*
