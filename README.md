@@ -42,4 +42,6 @@ This Repo is used training one specific class detection project.
 	`./darknet detector train cfg/xxx.data cfg/xxx.cfg xxx.weights
 `
 
-9. Run the test, first you need to change the 
+9. Run the test, first you need to change the line 404 in `src/darknet.c` the data file to your training one, and then `make` and run detector with your test images.
+
+10. If you want to use the model on android devices, please see [darkflow](https://github.com/thtrieu/darkflow) for how to generate darknet protobuf.
